@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*- 
 # hello.py
+# add comments 
 
 def application(environ, start_response):
     start_response('200 OK', [('Content-Type', 'text/html')])
